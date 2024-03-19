@@ -8,13 +8,7 @@ function App() {
     return (
       <Card
         key={card.key}
-        title={card.title}
-        location={card.location}
-        googleMapsUrl={card.googleMapsUrl}
-        startDate={card.startDate}
-        endDate={card.endDate}
-        description={card.description}
-        imageUrl={card.imageUrl}
+        {...card}
       />
     );
   });
