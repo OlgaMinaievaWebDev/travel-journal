@@ -4,7 +4,11 @@ export default function Card() {
   return (
     <div className="card">
       <div className="card--img--box">
-        <img src="https://source.unsplash.com/WLxQvbMyfas" alt="image-name" />
+        <img
+          className="card--img"
+          src="https://source.unsplash.com/WLxQvbMyfas"
+          alt="image-name"
+        />
       </div>
       <div className="card--info">
         <i className="fa-solid fa-location-dot card--location--icon"></i>

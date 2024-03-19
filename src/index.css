@@ -4,7 +4,7 @@
   --clr-accent: #f55a5a;
   --ff-main: "Inter", sans-serif;
   --clr-text-main: #2b283a;
-  --clr-text-light: #918e9b;
+  --clr-text-light: #aeabb9;
   --clr-background-light: #ffffff;
 }
 
@@ -15,4 +15,11 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  padding: 4em 3em;
 }
