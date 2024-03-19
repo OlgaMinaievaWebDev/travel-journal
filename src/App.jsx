@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
 import Card from "./Card";
 import data from "./data";
-
+import Footer from "./Footer";
 
 function App() {
   const cards = data.map((card) => {
@@ -17,6 +17,7 @@ function App() {
     <>
       <Navbar />
       <section className="card--list">{cards}</section>
+      <Footer />
     </>
   );
 }

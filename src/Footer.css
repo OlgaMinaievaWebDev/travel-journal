@@ -1,0 +1,17 @@
+footer {
+  padding: 1.25em 2.25em;
+  text-align: center;
+  background-color: var(--clr-accent);
+  color: var(--clr-background-light);
+}
+
+.footer--link {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 5px;
+}
+
+.footer--link:hover {
+  text-decoration: underline;
+  color: inherit;
+}
